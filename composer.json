@@ -1,0 +1,41 @@
+{
+    "name": "dhtml/flarum-language-oromo",
+    "description": "Flarum Oromo Extension",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "GPL-1.0-or-later",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "Anthony Ogundipe",
+            "email": "ditony@gmail.com",
+            "role": "Developer"
+        }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "flarum-extension": {
+      "title": "Oromo",
+      "category": "language",
+      "info": {
+        "website": "https://github.com/dhtml",
+        "support": "https://africoders.com"
+      },
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#ffffff",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center"
+      }
+    },
+    "flarum-locale": {
+      "code": "om",
+      "title": "Afaan Oromoo"
+    }
+  }
+}
